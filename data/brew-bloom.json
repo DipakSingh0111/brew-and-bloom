@@ -1,0 +1,431 @@
+{
+  "categories": {
+    "BrewBloom": {
+      "sections": {
+        "Global": {
+          "variants": {
+            "BrewBloomGlobal1": {
+              "companyName": "Brew & Bloom Café & Bakery",
+              "brand": {
+                "name": "Brew & Bloom",
+                "subtitle": "CAFÉ & BAKERY",
+                "tagline": "GOOD COFFEE ◇ FRESH BAKES ◇ BRIGHTER DAYS"
+              },
+              "contact": {
+                "address": "123 Bloom Street, San Francisco, CA 94107",
+                "phone": "(415) 555-0199",
+                "email": "hello@brewandbloom.com",
+                "hoursDays": "Mon - Sun",
+                "hoursTime": "7:00 AM - 8:00 PM"
+              },
+              "socials": [
+                {
+                  "name": "Facebook",
+                  "url": "https://facebook.com",
+                  "icon": "facebook"
+                },
+                {
+                  "name": "Instagram",
+                  "url": "https://instagram.com",
+                  "icon": "instagram"
+                },
+                {
+                  "name": "Twitter",
+                  "url": "https://twitter.com",
+                  "icon": "twitter"
+                },
+                {
+                  "name": "Pinterest",
+                  "url": "https://pinterest.com",
+                  "icon": "pinterest"
+                }
+              ]
+            }
+          }
+        },
+        "Header": {
+          "variants": {
+            "BrewBloomHeader1": {
+              "logo": {
+                "src": "/images/logo-image.png",
+                "name": "Brew & Bloom",
+                "subtitle": "COFFEE & BAKERY"
+              },
+              "menu": [
+                { "label": "Home", "href": "#home" },
+                { "label": "Menu", "href": "#menu" },
+                { "label": "About Us", "href": "#about" },
+                { "label": "Artisans", "href": "#artisans" },
+                { "label": "Gallery", "href": "#gallery" },
+                { "label": "Testimonials", "href": "#testimonials" }
+              ],
+              "cta": {
+                "label": "Contact",
+                "href": "#contact"
+              }
+            }
+          }
+        },
+        "HeroBanner": {
+          "variants": {
+            "BrewBloomHeroBanner1": {
+              "badge": "GOOD COFFEE ◇ FRESH BAKES ◇ BRIGHTER DAYS",
+              "heading": {
+                "main": "Fresh Flavours &",
+                "highlight": "Bigger Moments"
+              },
+              "description": "At Brew & Bloom, we slow down to celebrate the honest craft of artisan coffee and European bakery traditions. Freshly pulled shots, flaky golden crusts, and sunlit mornings made for you.",
+              "backgroundImage": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=2200&q=90",
+              "primaryCta": {
+                "label": "EXPLORE OUR MENU",
+                "href": "#menu"
+              },
+              "secondaryCta": {
+                "label": "OUR STORY",
+                "href": "#about"
+              }
+            }
+          }
+        },
+        "Features": {
+          "variants": {
+            "BrewBloomFeatures1": {
+              "list": [
+                {
+                  "id": "feat-1",
+                  "icon": "leaves",
+                  "title": "100% Organic Beans",
+                  "description": "Ethically sourced single-origin coffee roasted in micro-batches."
+                },
+                {
+                  "id": "feat-2",
+                  "icon": "coffee",
+                  "title": "Master Handcraft",
+                  "description": "Every cup pulled to perfection by passionate certified baristas."
+                },
+                {
+                  "id": "feat-3",
+                  "icon": "food",
+                  "title": "Artisanal Bakes",
+                  "description": "Warm flaky croissants & sourdough crafted fresh each sunrise."
+                },
+                {
+                  "id": "feat-4",
+                  "icon": "ambience",
+                  "title": "Botanical Haven",
+                  "description": "Tranquil greenery, sunlit tables & a warm welcoming atmosphere."
+                }
+              ]
+            }
+          }
+        },
+        "Menu": {
+          "variants": {
+            "BrewBloomMenu1": {
+              "badge": "OUR MENU",
+              "heading": {
+                "main": "A Taste for ",
+                "highlight": "Every Mood"
+              },
+              "description": "Carefully crafted espresso blends, ceremonial teas, and buttery viennoiserie baked fresh throughout the day.",
+              "cta": {
+                "label": "ORDER IN CAFÉ",
+                "href": "#contact"
+              },
+              "list": [
+                {
+                  "id": 1,
+                  "name": "Espresso Tonic Reserve",
+                  "category": "Coffee",
+                  "price": "$4.80",
+                  "description": "Double shot espresso over sparkling citrus tonic, rosemary sprig.",
+                  "image": "https://images.unsplash.com/photo-1510707577719-ae7c14805e3a?auto=format&fit=crop&w=800&q=85"
+                },
+                {
+                  "id": 2,
+                  "name": "Matcha Honey Velvet",
+                  "category": "Specialty",
+                  "price": "$5.25",
+                  "description": "Ceremonial grade Uji matcha, raw wildflower honey, oat milk.",
+                  "image": "https://images.unsplash.com/photo-1570968915860-54d5c301fa9f?auto=format&fit=crop&w=800&q=85"
+                },
+                {
+                  "id": 3,
+                  "name": "Golden Almond Croissant",
+                  "category": "Bakery",
+                  "price": "$4.50",
+                  "description": "Flaky slow-fermented butter pastry layered with almond frangipane.",
+                  "image": "https://images.unsplash.com/photo-1555507036-ab1f4038808a?auto=format&fit=crop&w=800&q=85"
+                },
+                {
+                  "id": 4,
+                  "name": "Wildberry Mascarpone Cake",
+                  "category": "Treats",
+                  "price": "$6.00",
+                  "description": "Vanilla sponge with whipped mascarpone cream & forest berries.",
+                  "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=800&q=85"
+                },
+                {
+                  "id": 5,
+                  "name": "Cold Brew Nitro Reserve",
+                  "category": "Coffee",
+                  "price": "$5.50",
+                  "description": "Steeped for 20 hours, velvety cascade head with rich cocoa notes.",
+                  "image": "https://images.unsplash.com/photo-1461023058943-07fcbe16d735?auto=format&fit=crop&w=800&q=85"
+                },
+                {
+                  "id": 6,
+                  "name": "Pistachio Rose Brioche",
+                  "category": "Bakery",
+                  "price": "$4.95",
+                  "description": "Braided brioche, crushed Iranian pistachios, delicate rose glaze.",
+                  "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=800&q=85"
+                }
+              ]
+            }
+          }
+        },
+        "AboutUs": {
+          "variants": {
+            "BrewBloomAboutUs1": {
+              "badge": "ABOUT US",
+              "heading": {
+                "main": "Where Passion Meets",
+                "highlight": "Everyday Comfort"
+              },
+              "description": "Brew & Bloom was born from a simple devotion — to create a peaceful corner where exceptional single-origin coffee and artisanal bakes bring people together. We partner with sustainable farms, ferment our doughs slowly, and bake with pure European butter.",
+              "images": {
+                "main": "https://images.unsplash.com/photo-1445116572660-236099ec97a0?auto=format&fit=crop&w=1200&q=90",
+                "secondary": "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=800&q=85"
+              },
+              "list": [
+                {
+                  "id": "about-1",
+                  "icon": "heart",
+                  "title": "Baked With Love",
+                  "description": "Small batches prepared fresh each dawn."
+                },
+                {
+                  "id": "about-2",
+                  "icon": "leaf",
+                  "title": "Farm Sourced",
+                  "description": "Direct trade beans & fresh organic dairy."
+                },
+                {
+                  "id": "about-3",
+                  "icon": "users",
+                  "title": "Cozy Community",
+                  "description": "Sunlit seating, books & good vibes."
+                },
+                {
+                  "id": "about-4",
+                  "icon": "clock",
+                  "title": "Open Every Day",
+                  "description": "Mon – Sun from 7:00 AM to 8:00 PM."
+                }
+              ],
+              "cta": {
+                "label": "Visit Our Café",
+                "href": "#contact"
+              }
+            }
+          }
+        },
+        "ReservationBanner": {
+          "variants": {
+            "BrewBloomReservationBanner1": {
+              "badge": "TABLE RESERVATION & TASTINGS",
+              "heading": {
+                "main": "Reserve Your Table for",
+                "highlight": "Moments That Bloom"
+              },
+              "description": "Whether arranging a cozy morning reunion, a quiet work nook, or an afternoon tea tasting, reserve your space and let our team look after you.",
+              "backgroundImage": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=2200&q=90",
+              "cta": {
+                "label": "BOOK YOUR VISIT",
+                "href": "#contact"
+              }
+            }
+          }
+        },
+        "Chefs": {
+          "variants": {
+            "BrewBloomChefs1": {
+              "badge": "OUR CHEFS",
+              "heading": {
+                "main": "Meet Our",
+                "highlight": "Culinary Experts"
+              },
+              "description": "Our talented chefs bring passion, creativity and years of experience to craft delicious dishes that make every visit special.",
+              "list": [
+                {
+                  "id": 1,
+                  "name": "Arjun Malhotra",
+                  "role": "EXECUTIVE CHEF",
+                  "signature": "Arjun",
+                  "image": "https://images.unsplash.com/photo-1577219491135-ce391730fb2c?auto=format&fit=crop&w=800&q=85",
+                  "description": "With over 12 years of culinary experience, Chef Arjun creates modern dishes with a perfect balance of tradition and innovation."
+                },
+                {
+                  "id": 2,
+                  "name": "Meera Kapoor",
+                  "role": "SOUS CHEF",
+                  "signature": "Meera",
+                  "image": "https://images.unsplash.com/photo-1581299894007-aaa50297cf16?auto=format&fit=crop&w=800&q=85",
+                  "description": "Chef Meera specializes in fresh, seasonal ingredients, turning simple flavors into unforgettable dining experiences."
+                },
+                {
+                  "id": 3,
+                  "name": "Rohan Sinha",
+                  "role": "PASTRY CHEF",
+                  "signature": "Rohan",
+                  "image": "https://images.unsplash.com/photo-1556910103-1c02745aae4d?auto=format&fit=crop&w=800&q=85",
+                  "description": "From classic desserts to contemporary treats, Chef Rohan's creations add a sweet ending to your perfect meal."
+                },
+                {
+                  "id": 4,
+                  "name": "Kavya Desai",
+                  "role": "SPECIALITY CHEF",
+                  "signature": "Kavya",
+                  "image": "https://images.unsplash.com/photo-1607631568010-a87245c0daf8?auto=format&fit=crop&w=800&q=85",
+                  "description": "Chef Kavya brings a creative touch to global cuisines, crafting unique dishes that delight every palate."
+                }
+              ]
+            }
+          }
+        },
+        "Gallery": {
+          "variants": {
+            "BrewBloomGallery1": {
+              "badge": "OUR GALLERY",
+              "heading": {
+                "main": "Moments at",
+                "highlight": "Brew & Bloom"
+              },
+              "description": "A visual glimpse into our sunlit café, morning rituals, flaky viennoiserie, and heartfelt smiles.",
+              "featured": {
+                "id": 1,
+                "title": "Morning Ritual",
+                "category": "Barista Bar",
+                "image": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=1200&q=85",
+                "alt": "Handcrafted cappuccino with latte art and buttery croissants"
+              },
+              "list": [
+                {
+                  "id": 2,
+                  "title": "Artisanal Bakes",
+                  "category": "Bakery",
+                  "image": "https://images.unsplash.com/photo-1555507036-ab1f4038808a?auto=format&fit=crop&w=800&q=85",
+                  "alt": "Golden fresh croissants stacked in showcase"
+                },
+                {
+                  "id": 3,
+                  "title": "Botanical Sunlit Nook",
+                  "category": "Interior",
+                  "image": "https://images.unsplash.com/photo-1445116572660-236099ec97a0?auto=format&fit=crop&w=800&q=85",
+                  "alt": "Cozy café interior with lush green plants and wooden tables"
+                },
+                {
+                  "id": 4,
+                  "title": "Berry Velvet Pastry",
+                  "category": "Desserts",
+                  "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=800&q=85",
+                  "alt": "Fresh cream cake slice topped with red berries"
+                },
+                {
+                  "id": 5,
+                  "title": "Summer Nitro Brew",
+                  "category": "Beverage",
+                  "image": "https://images.unsplash.com/photo-1517256064527-09c73fc73e38?auto=format&fit=crop&w=800&q=85",
+                  "alt": "Iced coffee drink on table next to pastry counter"
+                }
+              ]
+            }
+          }
+        },
+        "Testimonials": {
+          "variants": {
+            "BrewBloomTestimonials1": {
+              "badge": "TESTIMONIALS",
+              "heading": {
+                "main": "Loved by",
+                "highlight": "Coffee Enthusiasts"
+              },
+              "description": "Genuine words from our regulars, morning visitors, and pastry connoisseurs.",
+              "list": [
+                {
+                  "id": 1,
+                  "name": "Sarah Johnson",
+                  "role": "Architect & Local Regular",
+                  "quote": "Brew & Bloom has become the highlight of my mornings. The balance of rich espresso with their almond croissant is unmatched in the city.",
+                  "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=200&q=80",
+                  "rating": 5
+                },
+                {
+                  "id": 2,
+                  "name": "Michael Lee",
+                  "role": "Food & Travel Journalist",
+                  "quote": "You can immediately sense the European craftsmanship in their baking. The atmosphere is warm, botanical, and deeply relaxing.",
+                  "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=200&q=80",
+                  "rating": 5
+                },
+                {
+                  "id": 3,
+                  "name": "Emily Carter",
+                  "role": "Pastry Enthusiast & Author",
+                  "quote": "A sanctuary for true coffee lovers. The staff treats you like family and the seasonal signature drinks always surprise me with their depth.",
+                  "avatar": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&w=200&q=80",
+                  "rating": 5
+                }
+              ]
+            }
+          }
+        },
+        "ContactPage": {
+          "variants": {
+            "BrewBloomContactPage1": {
+              "badge": "GET IN TOUCH",
+              "heading": {
+                "main": "Visit Our Café or",
+                "highlight": "Say Hello"
+              },
+              "description": "We are situated in the heart of San Francisco’s artisan district. Drop by for your morning brew or drop us a line below.",
+              "info": {
+                "address": "123 Bloom Street, San Francisco, CA 94107",
+                "phone": "(415) 555-0199",
+                "email": "hello@brewandbloom.com",
+                "hours": "Monday – Sunday: 7:00 AM – 8:00 PM"
+              },
+              "form": {
+                "title": "Send a Note or Book a Table",
+                "subtitle": "Fill in your details and our team will get back to you promptly."
+              }
+            }
+          }
+        },
+        "Footer": {
+          "variants": {
+            "BrewBloomFooter1": {
+              "logo": {
+                "src": "/images/logo-image.png"
+              },
+              "description": "Where great coffee meets freshly baked happiness. Handcrafted single-origin roasts, flaky butter pastries, and botanical comfort in San Francisco.",
+              "favorites": [
+                { "name": "Espresso Tonic", "price": "$4.80" },
+                { "name": "Matcha Honey Velvet", "price": "$5.25" },
+                { "name": "Almond Croissant", "price": "$4.50" },
+                { "name": "Wildberry Mascarpone", "price": "$6.00" },
+                { "name": "Nitro Cold Brew", "price": "$5.50" }
+              ],
+              "newsletter": {
+                "title": "Morning Journal",
+                "description": "Receive invitations to private cupping sessions and seasonal baker specials."
+              },
+              "copyright": "© 2026 Brew & Bloom Café & Bakery. All rights reserved."
+            }
+          }
+        }
+      }
+    }
+  }
+}
