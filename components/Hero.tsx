@@ -23,12 +23,12 @@ export default function Hero({ data }: HeroSectionProps) {
           alt={data.heading?.main || "Brew & Bloom Café"}
           className="w-full h-full object-cover object-right md:object-center select-none"
         />
-        {/* Gradient only behind text on left, right side shows clear HD image */}
-        <div className="absolute inset-0 bg-gradient-to-r from-[#07130e] via-[#07130e]/95 via-35% md:via-46% to-transparent to-72% z-10" />
+        {/* Soft, light gradient only on the left edge for text contrast - background image stays crisp & clear */}
+        <div className="absolute inset-0 bg-gradient-to-r from-[#07130e]/85 via-[#07130e]/45 via-25% to-transparent to-45% z-10" />
       </div>
 
       <div className="relative z-20 max-w-[1436px] mx-auto px-4 sm:px-6 lg:px-12 py-12 sm:py-16 lg:py-0 w-full">
-        <div className="max-w-[700px]">
+        <div className="max-w-[700px] drop-shadow-sm">
           <motion.p
             initial={{ opacity: 0, y: 15 }}
             animate={{ opacity: 1, y: 0 }}
@@ -67,7 +67,7 @@ export default function Hero({ data }: HeroSectionProps) {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7, delay: 0.4 }}
-            className="mt-4 sm:mt-5 max-w-[480px] xl:max-w-[540px] text-white/90 text-sm sm:text-[15px] xl:text-[17px] leading-relaxed font-light"
+            className="mt-4 sm:mt-5 max-w-[480px] xl:max-w-[540px] text-white/95 text-sm sm:text-[15px] xl:text-[17px] leading-relaxed font-light"
           >
             {data.description}
           </motion.p>
@@ -83,7 +83,7 @@ export default function Hero({ data }: HeroSectionProps) {
                 whileHover={{ scale: 1.04 }}
                 whileTap={{ scale: 0.98 }}
                 href={data.primaryCta.href}
-                className="group inline-flex items-center gap-4 xl:gap-5 rounded-full border-[1.5px] border-[#C8924B] bg-black/40 hover:bg-black/60 backdrop-blur-[3px] pl-6 xl:pl-7 pr-1.5 py-1.5 transition-all duration-300"
+                className="group inline-flex items-center gap-4 xl:gap-5 rounded-full border-[1.5px] border-[#C8924B] bg-[#07130e]/75 hover:bg-[#07130e]/90 pl-6 xl:pl-7 pr-1.5 py-1.5 transition-all duration-300"
               >
                 <span className="text-white text-[11px] xl:text-[12.5px] font-semibold tracking-[0.14em] uppercase">
                   {data.primaryCta.label}
@@ -99,7 +99,7 @@ export default function Hero({ data }: HeroSectionProps) {
                 whileHover={{ scale: 1.04 }}
                 whileTap={{ scale: 0.98 }}
                 href={data.secondaryCta.href}
-                className="inline-flex items-center justify-center rounded-full border-[1.5px] border-white/80 hover:border-white bg-black/30 hover:bg-black/50 backdrop-blur-[3px] px-7 xl:px-8 h-[46px] xl:h-[50px] text-white text-[11px] xl:text-[12.5px] font-semibold tracking-[0.14em] uppercase transition-colors duration-300"
+                className="inline-flex items-center justify-center rounded-full border-[1.5px] border-white/80 hover:border-white bg-[#07130e]/60 hover:bg-[#07130e]/80 px-7 xl:px-8 h-[46px] xl:h-[50px] text-white text-[11px] xl:text-[12.5px] font-semibold tracking-[0.14em] uppercase transition-colors duration-300"
               >
                 {data.secondaryCta.label}
               </motion.a>

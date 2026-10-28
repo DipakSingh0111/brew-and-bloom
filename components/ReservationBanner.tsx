@@ -24,8 +24,8 @@ export default function ReservationBanner({
           alt={data.heading?.main || "Reserve table"}
           className="w-full h-full object-cover object-center select-none"
         />
-        {/* Gradient only behind text on left, right side is 100% clear HD image */}
-        <div className="absolute inset-0 bg-gradient-to-r from-[#06110d] via-[#06110d]/95 via-40% md:via-48% to-transparent to-72% z-10" />
+        {/* Light gradient on left for text readability while keeping image crisp */}
+        <div className="absolute inset-0 bg-gradient-to-r from-[#06110d]/85 via-[#06110d]/45 via-25% to-transparent to-50% z-10" />
       </div>
 
       <div className="relative z-20 max-w-[1436px] mx-auto px-4 sm:px-6 lg:px-12 py-12 sm:py-16 w-full">
